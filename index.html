@@ -32,9 +32,49 @@
          </div>
     </header>
     <main class="content">
-        <section class="reservation"></section>
+        <section id="reservation">
+          <h1 class="reservation">Reservar una mesa</h1>
+        <form class="form">
+          <fieldset class="fieldset">
+          <label for="Nombre" class="label">Nombre *</label>
+          <input class="input" type="text" id="Nombre" placeholder="Nombre" required>
 
+          <label for="Numero" class="label">Numero de comensales *</label>
+          <input class="input" type="number" id="Numero" min="1" max="8" placeholder="1-8" required>
+
+          <label for="Fecha" class="label">Fecha y hora *</label>
+          <input class="input" type="date" id="Fecha" required>
+
+          <label for="correo" class="label">Tu correo electrónico *</label>
+          <input class="input" type="email" id="correo" placeholder="email@email.com" required>
+
+          <button type="button" class="button">Reservar una mesa</button>
+
+
+          <input type="checkbox" class="checkbox" id="checkbox" name="checkbox">
+          <label for="checkbox" class="checkbox">Acepto los términos de uso</label>
+
+        </fieldset>
+        </form>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="circulo"></div>
+     <nav class="navfooter">
+      <img src="Imagenes/logo_coffeeshop_light.svg" alt="Logo" class="logo_footer">
+      <div class="div-redes-sociales">
+      <h3 class="redessociales">Redes sociales</h3>
+      <ul class="nav-links-footer">
+          <li class="Facebook">
+            <img src="Imagenes/facebook_white.svg" alt="facebook-image" class="logo-facebook">
+            <a href="#">Facebook</a></li>
+          <li class="Instagram">
+            <img src="Imagenes/instagram_white.svg" alt="instagram-image" class="logo-instagram">
+            <a href="#">Instagram</a></li>
+          </ul>
+          </div>
+     </nav>
+<h4 class="copyright">© 2026 Richard Lazo</h4>
+    </footer>
 </body>
 </html>
