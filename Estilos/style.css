@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  color: #ffffff;
+  background-image: url("../imagenes/background_header.svg");
+  background-size: cover;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -93,4 +111,174 @@ nav a {
   width: 105px;
   position: relative;
   left: -50px;
+}
+
+.reservation {
+  background: #ffd6c5 url(../Imagenes/background_reservation.svg) no-repeat
+    center / cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: black;
+  padding-top: 100px;
+  margin: 0 0 80px;
+}
+
+.form {
+  display: flexbox;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 385px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 120px;
+}
+
+.fieldset {
+  border: none;
+  box-sizing: border-box;
+}
+
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  display: block;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 15px 20px;
+}
+
+.button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  width: 385px;
+  border-radius: 4px;
+  background-color: #e96e3a;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.form__label-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  background: #d35722;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.circulo {
+  background-color: #e96e3a;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  z-index: 0;
+  left: -44px;
+  top: -128px;
+  position: absolute;
+}
+
+.navfooter {
+  display: flex;
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.footer__logo {
+  position: relative;
+  height: 39px;
+  width: 105px;
+}
+
+.redessociales {
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.footer__nav-links {
+  display: flex;
+  flex-direction: column;
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.copyright {
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  padding-top: 108px;
+}
+
+.div-redes-sociales {
+  padding-right: 80px;
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.footer_link {
+  color: #ffffff;
+}
+
+.footer_link-icon {
+  width: 16px;
+  height: 16px;
+  gap: 10px;
 }

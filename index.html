@@ -32,27 +32,25 @@
          </div>
     </header>
     <main class="content">
-        <section id="reservation">
-          <h1 class="reservation">Reservar una mesa</h1>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
         <form class="form">
           <fieldset class="fieldset">
-          <label for="Nombre" class="label">Nombre *</label>
+          <label for="Nombre" class="form__label">Nombre *</label>
           <input class="input" type="text" id="Nombre" placeholder="Nombre" required>
 
-          <label for="Numero" class="label">Numero de comensales *</label>
+          <label for="Numero" class="form__label">Numero de comensales *</label>
           <input class="input" type="number" id="Numero" min="1" max="8" placeholder="1-8" required>
 
-          <label for="Fecha" class="label">Fecha y hora *</label>
+          <label for="Fecha" class="form__label">Fecha y hora *</label>
           <input class="input" type="date" id="Fecha" required>
 
-          <label for="correo" class="label">Tu correo electrónico *</label>
+          <label for="correo" class="form__label">Tu correo electrónico *</label>
           <input class="input" type="email" id="correo" placeholder="email@email.com" required>
 
           <button type="button" class="button">Reservar una mesa</button>
 
-
-          <input type="checkbox" class="checkbox" id="checkbox" name="checkbox">
-          <label for="checkbox" class="checkbox">Acepto los términos de uso</label>
+          <label for="checkbox" class="form__label form__label-checkbox"><input type="checkbox" class="checkbox" id="checkbox" name="checkbox">Acepto los términos de uso</label>
 
         </fieldset>
         </form>
@@ -61,16 +59,16 @@
     <footer class="footer">
       <div class="circulo"></div>
      <nav class="navfooter">
-      <img src="Imagenes/logo_coffeeshop_light.svg" alt="Logo" class="logo_footer">
+      <img src="Imagenes/logo_coffeeshop_light.svg" alt="Logo" class="footer__logo">
       <div class="div-redes-sociales">
       <h3 class="redessociales">Redes sociales</h3>
-      <ul class="nav-links-footer">
-          <li class="Facebook">
-            <img src="Imagenes/facebook_white.svg" alt="facebook-image" class="logo-facebook">
-            <a href="#">Facebook</a></li>
-          <li class="Instagram">
-            <img src="Imagenes/instagram_white.svg" alt="instagram-image" class="logo-instagram">
-            <a href="#">Instagram</a></li>
+      <ul class="footer__nav-links">
+          <li>
+            <img src="Imagenes/facebook_white.svg" alt="facebook-image" class="footer_link-icon">
+            <a href="#" class="footer_link">Facebook</a></li>
+          <li>
+            <img src="Imagenes/instagram_white.svg" alt="instagram-image" class="footer_link-icon">
+            <a href="#" class="footer_link">Instagram</a></li>
           </ul>
           </div>
      </nav>
